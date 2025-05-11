@@ -32,8 +32,6 @@ def step1_homepage_screenshot(driver):
     logging.info("▶️ Start Step 1: 打开首頁並等待元素渲染完成")
     url = "https://www.cathaybk.com.tw/cathaybk/"
     driver.get(url)
-    url = "https://www.cathaybk.com.tw/cathaybk/"
-    driver.get(url)
     logging.info(f"🌐 已打开：{url}")
 
     # 等汉堡菜单出现
